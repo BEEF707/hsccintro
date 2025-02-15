@@ -41,3 +41,12 @@ app.use(function(err, req, res, next) {
 });
 
 module.exports = app;
+
+
+<!DOCTYPE html>
+<html>
+<!-- Include statement has head section -->
+<%- include('./partials/head') -%>
+<body>
+    <!-- Include navigation menu -->
+    <%- include('./partials/menu') -%></body>
