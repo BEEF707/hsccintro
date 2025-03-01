@@ -9,15 +9,17 @@
 
    <h1> Sample data entry </h1>
    <form name="SampleForm" action="/formentry" method="POST">
-      First Name: <input type="text" name="firstname" id="firstname" required>
-      Last Name: <input type="text" name="lastname" id="lastname" required> <br>
-      Email: <input type="email" name="email1" id="email1" required> <br>
-      Enter a number: <input type="number" name="num1" id="num1" required>
-      Enter another number: <input type="number" name="num2" id="num2" required>
-
-      <input type="submit" value="Submit form">
-
-
+    <lable for="firstname">  First Name:</lable> <input type="text" name="firstname" id="firstname" required>
+     <label for="lastname"> Last Name:</label> <input type="text" name="lastname" id="lastname" required> <br>
+     <label for="emaill"> Email:</label> <input type="email" name="email1" id="email1" required> <br>
+      <label for="num1">Enter a number: </label><input type="number" name="num1" id="num1" required>
+         <label for="num2"> Enter another number:</label> <input type="number" name="num2" id="num2" required>
+         <br>
+         <input type="checkbox" name="numconvert1" id="numconvert1" value="bin">
+         <label for="numconvert1"> show in binary </label>
+      <input type="checkbox" name="numconvert2" id="numconvert2" value="hex">
+      <input for="numconvert2"> show in hexadecimal </lable >
+      <input type="submit" value="submit">
    </form>
 
 </body>

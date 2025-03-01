@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  if (prosses.env.CONSOLE_DEBUG){
+  if (process.env.CONSOLE_DEBUG=="true"){
     console.log("debugging enabled");
   }
   res.render('index', { title: 'Express' });
