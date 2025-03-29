@@ -11,6 +11,8 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var bdpahistoryRouter = require('./routes/bdpahistory');
 var formentryRouter = require('./routes/formentry');
+var LoginTestRouter = require('./routes/formentry')
+
 var electionmetaRouter= require('./routes/electionmeta')
 
 // Setting up Express app
